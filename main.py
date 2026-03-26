@@ -17,8 +17,8 @@ else:
 
 print("="*30)
 print("Cost breakdown:")
-for i in range(100,int(c),100):
-    print(i,"km → ",e*i,"KZT")
+for i in range(100,int(c)+1,100):
+    print(i,"km → ",i/100*d*e,"KZT")
 print("Destination uppercase : ", b.upper())
 print("Destination lowercase : ", b.lower())
 print("Length", len(b))
